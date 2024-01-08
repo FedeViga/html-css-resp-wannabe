@@ -128,6 +128,16 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+/*bonus fix layout container */
+@media screen and (max-width: 1160px) {
+
+    .container {
+        max-width: 1140px;
+        width: auto;
+    }
+    
+}
+
 /* media query tablet  */
 @media screen and (max-width: 768px) {
 
@@ -170,5 +180,6 @@ img {
     .why-us {
         margin-bottom: 0;
         padding-top: 3rem;
+        padding-bottom: 6rem;
     }
 }
