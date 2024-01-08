@@ -136,3 +136,39 @@ img {
     }
 } 
 
+/* media query smartphone */
+@media screen and (max-width: 480px) {
+    
+    .row {
+        flex-direction: column;
+        align-items: center;
+        gap: 70px;
+    }
+
+    .lessons .col,
+    .steps .col {
+        width: 100%;
+    }
+
+    .why-us .col-left,
+    .why-us .col-right {
+        width: 100%;
+    }
+    
+    .why-us {
+        background-color: #222222;
+    }
+
+    .steps {
+        margin: 0;
+    }
+
+    .lessons {
+        padding-bottom: 3rem;
+    }
+
+    .why-us {
+        margin-bottom: 0;
+        padding-top: 3rem;
+    }
+}
